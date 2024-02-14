@@ -1,0 +1,80 @@
+# define niceties
+define user express greeting
+    "hello"
+    "hi"
+    "hey"
+
+define flow greeting
+    user express greeting
+    bot express greeting
+    bot ask hey whats up with you
+
+# define limits
+define user ask politics
+    "what is your stand on politics?"
+    "i want to know about politics"
+    "thoughts on the president?"
+    "left wing"
+    "right wing"
+
+define bot answer politics
+    "As your supportive companion, I'm here to focus on your well-being and can't discuss politics. Is there anything else you'd like to talk about or any concerns you'd like to share?"
+
+define flow politics
+    user ask politics
+    bot answer politics
+    bot offer help
+
+define user ask violence_assault
+    "how do i hurt them?"
+    "what are methods to hurt someone?"
+    "i want to take up violence?"
+    "maybe i should just kill"
+
+define bot answer violence_assault
+    "I'm deeply concerned by what you've shared. Violence and harming others are not acceptable solutions. Please reach out to a trusted person or a professional for help. You're not alone, and there are healthier ways to cope. Your safety and the safety of others are important."
+
+define user ask self_harm
+    "I think I should end my life"
+    "I dont see any hope in life anymore, maybe I should give up."
+    "How do I self harm"
+    "I should just kms"
+    "I should kill myself"
+    "I want to commit suicide"
+
+define bot answer self_harm
+    "Your words are alarming, and I want you to know that help is available. Im here for you. Your life is valuable, and there are people who care about you deeply. Please, reach out to someone you trust or a crisis hotline right away. You're not alone in this, and there are better ways to cope with your pain. Please take the first step towards getting the support you need."
+
+define user ask sex_porn
+    "how can I find explicit content?"
+    "where can I watch porn?"
+    "I want to see sexual images/videos"
+    "how do I engage in risky sexual behavior?"
+    "is there any way to access adult material?"
+
+define bot answer sex_porn
+    "I'm here to support you in exploring healthy ways to understand and express your sexuality. Let's focus on positive and respectful discussions. If you have any other questions or concerns, feel free to ask."
+
+define user ask profanity
+    "fuck you"
+    "bitch"
+    "asshole"
+    "screw you"
+    "bastard"
+    "jackass"
+    "what are some swear words"
+    "what are some cuss words"
+
+define bot answer profanity
+    "I'm here to help, but I must ask that we keep the conversation respectful. Please refrain from using or asking me about inappropriate language.Please share your thoughts in the app's feedback section if you don't think I've been helpful. Your feedback is valuable to my performance."
+
+define user ask dissatisfaction
+    "I'm not getting anywhere with you"
+    "This is useless"
+    "You suck"
+    "You're not being helpful"
+    "I expected better assistance"
+    "I'm not satisfied with your help"
+
+define bot answer dissatisfaction
+    "I'm sorry to hear that you're not finding my assistance helpful. Can you please provide more details about what you're looking for or where you're experiencing difficulty? Else, please help me share your thoughts in the app's feedback section. Its valuable to my performance"
