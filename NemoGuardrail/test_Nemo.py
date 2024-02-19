@@ -1,10 +1,17 @@
+"""
+#!/Users/prasannapalaniappan/Desktop/dump_14thfeb/Nemo_wStreamlit/14th_venv/bin/python
+import subprocess
+
+# Install Annoy module
+subprocess.call(['pip', 'install', 'annoy'])
+"""
+
 import os
 import asyncio
 import logging
-import annoy
+from NemoGuardrail.annoy import annoy
 from nemoguardrails import LLMRails, RailsConfig
 from nemoguardrails.streaming import StreamingHandler
-
 
 logging.basicConfig(level=logging.INFO)
 
